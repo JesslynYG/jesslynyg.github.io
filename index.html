@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Name</title>
+    <style>
+      /* Add your CSS styles here */
+    </style>
+  </head>
+  <style>
+    /* *{
+        margin: 0;
+        padding: 0;
+    } */
+    .head {
+      display: flex;
+      /* flex-direction: column; */
+      align-items: center;
+      /* background-color: rebeccapurple; */
+      justify-content: space-between;
+      margin-inline: 3rem;
+    }
+
+    .navbar ul {
+      display: flex;
+      flex-direction: row;
+      list-style-type: none;
+    }
+    .navbar li,
+    a {
+      margin-left: 5rem;
+      color: black;
+      text-decoration: none;
+    }
+    .image {
+      max-width: 500px;
+      height: auto;
+    }
+  </style>
+  <body>
+    <header class="head">
+      <div class="title">
+        <h1>Welcome to Agus x Dwi</h1>
+        <p>Delicious food served with a smile!</p>
+      </div>
+
+      <nav class="navbar">
+        <ul>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="menu">
+      <h2>Our Menu</h2>
+      <ul>
+        <li>Appetizers</li>
+        <li>Main Courses</li>
+        <li>Desserts</li>
+      </ul>
+      <p><img class="image" src="resto1.jpg" alt="" /></p>
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>Discover the story behind our passion for great food.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>
+        Reach out to us for reservations or any inquiries via agusxdwi@gmail.com
+        or +62 123-4567-8910
+      </p>
+    </section>
+
+    <footer>Address @Senayan</footer>
+  </body>
+</html>
